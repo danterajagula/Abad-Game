@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cibxry4ak2hv"]
 
+[ext_resource type="Texture2D" uid="uid://drkdjustywr8j" path="res://assets/terrain/Terrain (16x16).png" id="2_11qgh"]
 [ext_resource type="Texture2D" uid="uid://cfai0d1hfy4q" path="res://assets/background/Green.png" id="4_2e70i"]
 [ext_resource type="PackedScene" uid="uid://b2df0st8ivnx5" path="res://Scene/game_objects/main_chara.tscn" id="5_l2qip"]
 [ext_resource type="PackedScene" uid="uid://6opgpedt013q" path="res://Scene/game_objects/finish.tscn" id="7_awxfq"]
@@ -8,11 +9,8 @@
 [ext_resource type="Script" uid="uid://dcvc6y41607pv" path="res://Scene/menu/game_manager.gd" id="11_343ab"]
 [ext_resource type="Texture2D" uid="uid://cbhd2a18mp4l1" path="res://assets/game_elements/heart.png" id="12_6ele4"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tkqtc"]
-load_path = "res://.godot/imported/Terrain (16x16).png-0eab5caef58d7caa77a6896c796c935b.ctex"
-
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
-texture = SubResource("CompressedTexture2D_tkqtc")
+texture = ExtResource("2_11qgh")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:0/0 = 0

@@ -2,6 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://d3cw6dd7kt5ev" path="res://assets/terrain/tileset.tres" id="1_8y746"]
 [ext_resource type="PackedScene" uid="uid://yxf02sdhwv56" path="res://Scene/game_objects/enemy.tscn" id="1_ofx4i"]
+[ext_resource type="Texture2D" uid="uid://cfai0d1hfy4q" path="res://assets/background/Green.png" id="1_orm8e"]
 [ext_resource type="PackedScene" uid="uid://b2df0st8ivnx5" path="res://Scene/game_objects/main_chara.tscn" id="3_lquwl"]
 [ext_resource type="PackedScene" uid="uid://b3b5jwh11ee6p" path="res://Scene/game_objects/collectable.tscn" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://6opgpedt013q" path="res://Scene/game_objects/finish.tscn" id="5_7mycd"]
@@ -9,9 +10,6 @@
 [ext_resource type="PackedScene" uid="uid://bs1upq8jl6wsb" path="res://Scene/levels/Level2.tscn" id="6_8bq5r"]
 [ext_resource type="Script" uid="uid://be2bivu22u15v" path="res://Scene/levels/pause.gd" id="8_044uh"]
 [ext_resource type="Texture2D" uid="uid://cbhd2a18mp4l1" path="res://assets/game_elements/heart.png" id="8_fpa3h"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ns3so"]
-load_path = "res://.godot/imported/Green.png-58c30fb40f5a74955dcb1d7e32ef210a.ctex"
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ynkhx"]
 content_margin_left = 8.0
@@ -32,7 +30,7 @@ corner_radius_bottom_left = 12
 texture_filter = 1
 offset_right = 2421.0
 offset_bottom = 629.0
-texture = SubResource("CompressedTexture2D_ns3so")
+texture = ExtResource("1_orm8e")
 stretch_mode = 1
 
 [node name="TileMap" type="TileMap" parent="SceneObjects" unique_id=947694812]

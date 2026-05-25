@@ -1,10 +1,9 @@
 [gd_resource type="TileSet" format=3 uid="uid://d3cw6dd7kt5ev"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tkqtc"]
-load_path = "res://.godot/imported/Terrain (16x16).png-0eab5caef58d7caa77a6896c796c935b.ctex"
+[ext_resource type="Texture2D" uid="uid://drkdjustywr8j" path="res://assets/terrain/Terrain (16x16).png" id="1_bc0bv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
-texture = SubResource("CompressedTexture2D_tkqtc")
+texture = ExtResource("1_bc0bv")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0

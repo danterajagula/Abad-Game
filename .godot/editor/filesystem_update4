@@ -1,2 +1,5 @@
-res://Scene/menu/main_menu.tscn
+res://Scene/levels/Level1.tscn
 res://assets/terrain/tileset.tres
+res://Scene/levels/Level2.tscn
+res://Scene/levels/Level3.tscn
+res://Scene/levels/Level4.tscn
