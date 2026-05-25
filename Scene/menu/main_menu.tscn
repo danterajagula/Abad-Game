@@ -2,12 +2,12 @@
 
 [ext_resource type="Script" uid="uid://demk5umuyfuga" path="res://Scene/menu/main_menu.gd" id="1_hii65"]
 [ext_resource type="Texture2D" uid="uid://cnpsi2war3yn" path="res://assets/menu/LOGO_text.png" id="2_hii65"]
-[ext_resource type="Texture2D" uid="uid://b18vqpgp6ex0m" path="res://assets/background/Yellow.png" id="2_i1yt5"]
+[ext_resource type="Texture2D" uid="uid://cs1n6m6yib0uf" path="res://assets/background/Brown.png" id="2_i1yt5"]
 
 [node name="MainMenu" type="Node" unique_id=1978515506]
 script = ExtResource("1_hii65")
 
-[node name="TextureRect2" type="TextureRect" parent="." unique_id=1776772595]
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=610055581]
 texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
